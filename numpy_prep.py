@@ -133,8 +133,6 @@ import numpy as np
 # print("Adult ages: "+str(adults))
 # print("Old people ages: "+str(olds))
 
-# 6
-
 
 
 
