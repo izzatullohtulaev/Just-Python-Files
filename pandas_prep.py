@@ -5,7 +5,7 @@ import pandas as pd
 # # EXAMPLE 1
 # data = [100, 102, 104, 200, 202]
 # series = pd.Series(data, index=["a", "b", "c", "d", "e"])
-# # print(series)
+# print(series)
 # # series.loc["c"] = 200
 # print(series)
 # # print(series.iloc[4])
