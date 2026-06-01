@@ -41,20 +41,7 @@ reviews = pd.read_csv("Datasets/winemag-data_first150k.csv", index_col=0)
 # reviewer_mean_ratings = reviews.groupby('variety')['points'].agg('mean')
 # print(reviewer_mean_ratings)
 
-country_variety_counts = reviews.groupby(['country', 'variety'])['winery'].agg('count').sort_values(ascending=False)
-print(country_variety_counts)
+# country_variety_counts = reviews.groupby(['country', 'variety'])['winery'].agg('count').sort_values(ascending=False)
+# print(country_variety_counts)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# print(reviews['winery'].nunique())
